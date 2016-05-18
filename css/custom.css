@@ -1,0 +1,23 @@
+body {
+    padding-top: 70px;
+}
+
+.navbar-inverse .navbar-toggle {
+    color: white;
+    font-weight: bold;
+    border-color: white;
+}
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #DDD;
+    color: #333;
+}
+.navbar-inverse .navbar-toggle .glyphicon {
+    color: white;
+}
+.navbar-inverse .navbar-toggle:hover .glyphicon {
+    color: #333;
+}
+
+.glyphicon {
+    color: #cdab51;
+}
