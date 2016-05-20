@@ -21,20 +21,24 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#myNavbar" aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
-                    <span class="glyphicon glyphicon-arrow-down"></span> 菜单
-                </button>
+                    <span class="glyphicon glyphicon-arrow-down"></span> 导航
+                </button> <!-- /navbar-menu button -->
                 <a class="navbar-brand" href="#">
                     <span>
-                        <img alt="Brand" width="20" height="20" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAA81BMVEX///9VPnxWPXxWPXxWPXxWPXxWPXxWPXz///9hSYT6+vuFc6BXPn37+vz8+/z9/f2LeqWMe6aOfqiTg6uXiK5bQ4BZQX9iS4VdRYFdRYJfSINuWI5vWY9xXJF0YJR3Y5Z4ZZd5ZZd6Z5h9apq0qcW1qsW1q8a6sMqpnLyrn76tocCvpMGwpMJoUoprVYxeRoJjS4abjLGilLemmbrDutDFvdLPx9nX0eDa1OLb1uPd1+Td2OXe2eXh3Ofj3+nk4Orl4evp5u7u7PLv7fPx7/T08vb08/f19Pf29Pj39vn6+fuEcZ9YP35aQn/8/P1ZQH5fR4PINAOdAAAAB3RSTlMAIWWOw/P002ipnAAAAPhJREFUeF6NldWOhEAUBRvtRsfdfd3d3e3/v2ZPmGSWZNPDqScqqaSBSy4CGJbtSi2ubRkiwXRkBo6ZdJIApeEwoWMIS1JYwuZCW7hc6ApJkgrr+T/eW1V9uKXS5I5GXAjW2VAV9KFfSfgJpk+w4yXhwoqwl5AIGwp4RPgdK3XNHD2ETYiwe6nUa18f5jYSxle4vulw7/EtoCdzvqkPv3bn7M0eYbc7xFPXzqCrRCgH0Hsm/IjgTSb04W0i7EGjz+xw+wR6oZ1MnJ9TWrtToEx+4QfcZJ5X6tnhw+nhvqebdVhZUJX/oFcKvaTotUcvUnY188ue/n38AunzPPE8yg7bAAAAAElFTkSuQmCC">
+                        <img alt="Brand" width="20" height="20"
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAA81BMVEX///9VPnxWPXxWPXxWPXxWPXxWPXxWPXz///9hSYT6+vuFc6BXPn37+vz8+/z9/f2LeqWMe6aOfqiTg6uXiK5bQ4BZQX9iS4VdRYFdRYJfSINuWI5vWY9xXJF0YJR3Y5Z4ZZd5ZZd6Z5h9apq0qcW1qsW1q8a6sMqpnLyrn76tocCvpMGwpMJoUoprVYxeRoJjS4abjLGilLemmbrDutDFvdLPx9nX0eDa1OLb1uPd1+Td2OXe2eXh3Ofj3+nk4Orl4evp5u7u7PLv7fPx7/T08vb08/f19Pf29Pj39vn6+fuEcZ9YP35aQn/8/P1ZQH5fR4PINAOdAAAAB3RSTlMAIWWOw/P002ipnAAAAPhJREFUeF6NldWOhEAUBRvtRsfdfd3d3e3/v2ZPmGSWZNPDqScqqaSBSy4CGJbtSi2ubRkiwXRkBo6ZdJIApeEwoWMIS1JYwuZCW7hc6ApJkgrr+T/eW1V9uKXS5I5GXAjW2VAV9KFfSfgJpk+w4yXhwoqwl5AIGwp4RPgdK3XNHD2ETYiwe6nUa18f5jYSxle4vulw7/EtoCdzvqkPv3bn7M0eYbc7xFPXzqCrRCgH0Hsm/IjgTSb04W0i7EGjz+xw+wR6oZ1MnJ9TWrtToEx+4QfcZJ5X6tnhw+nhvqebdVhZUJX/oFcKvaTotUcvUnY188ue/n38AunzPPE8yg7bAAAAAElFTkSuQmCC">
                         Project name
                     </span>
                 </a>
             </div>
-            <div id="navbar" class="navbar-collapse collapse">
+            <div id="myNavbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#">Dashboard <span class="sr-only">(current)</span></a></li>
+                    <li class="active">
+                        <a href="#">Dashboard <span class="sr-only">(current)</span></a>
+                    </li>
                     <li><a href="#">Settings</a></li>
                     <li><a href="#">Profile</a></li>
                     <li><a href="#">Help</a></li>
@@ -43,7 +47,9 @@
                     <div class="input-group">
                         <input type="text" class="form-control" placeholder="This is navbar form...">
                         <span class="input-group-btn">
-                            <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span> 搜索</button>
+                            <button class="btn btn-default" type="button">
+                                <span class="glyphicon glyphicon-search"></span> 搜索
+                            </button>
                         </span>
                     </div>
                 </form>
@@ -54,33 +60,56 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2 sidebar">
-                <ul class="nav nav-sidebar">
-                    <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">Reports</a></li>
-                    <li><a href="#">Analytics</a></li>
-                    <li><a href="#">Export</a></li>
-                </ul>
-                <ul class="nav nav-sidebar">
-                    <li><a href="#">Nav item</a></li>
-                    <li><a href="#">Nav item again</a></li>
-                    <li><a href="#">One more nav</a></li>
-                    <li><a href="#">Another nav item</a></li>
-                    <li><a href="#">More navigation</a></li>
-                </ul>
-                <ul class="nav nav-sidebar">
-                    <li><a href="#">Nav item again</a></li>
-                    <li><a href="#">One more nav</a></li>
-                    <li><a href="#">Another nav item</a></li>
+            <div id="mySidebar" class="col-xs-12 col-sm-3 col-md-2">
+                <!-- a tree = ul > li(a.tree-toggle + ul.tree[...repeat...]) -->
+                <ul class="nav nav-sidebar tree tree-start-here">
+                    <li>
+                        <a href="#" class="tree-toggle tree-root-toggle">
+                            <span class="glyphicon glyphicon-menu-hamburger"></span> 菜单
+                            <span class="glyphicon glyphicon-menu-left pull-right"></span>
+                        </a>
+                        <ul class="nav nav-sidebar tree">
+                            <li>
+                                <a href="#" class="tree-toggle nav-header">Bootstrap</a>
+                                <ul class="nav nav-sidebar tree">
+                                    <li><a href="#">JavaScript</a></li>
+                                    <li><a href="#">CSS</a></li>
+                                    <li>
+                                        <a href="#" class="tree-toggle nav-header">Buttons</a>
+                                        <ul class="nav nav-list tree">
+                                            <li><a href="#">Colors</a></li>
+                                            <li><a href="#">Sizes</a></li>
+                                            <li>
+                                                <a href="#" class="tree-toggle nav-header">Forms</a>
+                                                <ul class="nav nav-list tree">
+                                                    <li><a href="#">Horizontal</a></li>
+                                                    <li><a href="#">Vertical</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="tree-toggle nav-header">Responsive</a>
+                                <ul class="nav nav-list tree">
+                                    <li><a href="#">Overview</a></li>
+                                    <li><a href="#">CSS</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
-            <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 main">
+            <div class="col-xs-12 col-sm-9 col-md-10 main">
                 <!-- Page Content -->
                 <div class="main-wrapper">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-lg-12">
-                                <h1>main wrapper</h1>
+                                <div class="page-header">
+                                    <h1>main wrapper <small>main warapper</small></h1>
+                                </div>
                             </div>
                             <!-- /.col-lg-12 -->
                         </div>
@@ -99,6 +128,7 @@
 
     <script src="../js/jquery.1.11.3.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/index.js"></script>
 </body>
 
 </html>

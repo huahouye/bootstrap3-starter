@@ -2,13 +2,11 @@ body {
     padding-top: 70px;
     background-color: #f8f8f8;
 }
-
 .main-wrapper {
     padding: 0 15px;
     min-height: 700px;
     background-color: #fff;
 }
-
 .navbar-inverse .navbar-toggle {
     color: white;
     font-weight: bold;
@@ -24,7 +22,30 @@ body {
 .navbar-inverse .navbar-toggle:hover .glyphicon {
     color: #333;
 }
-
 .glyphicon {
     color: #cdab51;
+}
+ul.nav-sidebar > li {
+    border-bottom: 1px solid #C6B489;
+}
+.nav-sidebar > .active > a, .nav-sidebar > .active > a:hover, .nav-sidebar > .active > a:focus {
+    color: #3979B9;
+    background-color: #DBDBDB;
+}
+.nav-sidebar {
+    /* 20px padding + 1px border */
+    margin-right: -21px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+ul.nav-sidebar > li > ul > li {
+    margin-left: 30px;
+}
+
+.tree-toggle {
+    background-color: #E5E5E5;
+}
+
+a.tree-root-toggle {
+    background-color: #BCBCBC;
 }
